@@ -52,11 +52,16 @@ body {
     font-size: 0.9rem;
 }
 
-.profilename{
-    color: aqua;
+.user-name, .user-role,  .sidebar-menu{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    ;
 }
 
-.profiletitle{
-    color: yellow;
+.user-role{
+    color:rgb(28, 222, 41);
 }
+
+.v-application--is-ltr .v-list-group--no-action > .v-list-group__items >
+.v-list-item{
+    padding-left: 50px;;
+}
+
