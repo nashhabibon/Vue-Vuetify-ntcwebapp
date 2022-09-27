@@ -146,7 +146,7 @@
           {
             icon: "fa-duotone fa-server",
             title: "Permits",
-            href: "purchase"
+            href: "/purchase"
           },
           {
             icon: "mdi-network-pos",
