@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Login from '../views/auth/Login.vue'
 import HomeView from '../views/HomeView.vue'
 import Purchase from '../forms/Purchase.vue'
 
@@ -11,7 +12,6 @@ const routes = [
     name: 'home',
     component: HomeView
   },
- 
   {
     path: '/purchase',
     name: 'purchase',
